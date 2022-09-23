@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+body {
+    font-size: 18px;
+    margin: 0;
+}
+
+#header {
+    position: relative;
+    color: white;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    height: 750px;
+}
+
+#logo {
+    position: relative;
+    bottom: 730px;
+    padding-left: 20px;
+}
+
+#links {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-family: 'Barlow', sans-serif;
+}
+
+#links a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+}
+
+#links a span {
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-size: 15px;
+    padding: 7px;
+    opacity: 1;
+}
+
+#links a span:hover {
+    color: hsl(0, 0%, 100%);
+    background-color: #ffffff;
+    border: 1px solid white;
+}
+
+#aboutonhome {
+    position: absolute;
+    top: 20%;
+    left: 27%;
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+}
+
+#arrowdown {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+
+#firstdisplay {
+    display: flex;
+    width: 100%;
+    margin-top: 0px;
+    margin: 0px;
+}
+
+#firstdisplay img {
+    width: 50%;
+}
+
+#seconddisplay {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+
+.tr {
+    font-weight: 900;
+    font-family: 'Fraunces', serif;
+    color: black;
+    font-size: 30px;
+}
+
+.pf {
+    font-weight: 600;
+    font-family: 'Barlow', sans-serif;
+}
+
+.leftside {
+    align-items: center;
+    margin: auto;
+    width: 300px;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.leftside a {
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    border-bottom: 3px solid hsl(51, 100%, 49%);
+    padding-bottom: 0px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 10px;
+}
+
+#seconddisplay img {
+    width: 50%;
+
+}
+
+#thirddisplay {
+    display: flex;
+    width: 100%;
+    margin: 0px;
+}
+
+#leftside {
+    width: 50%;
+    background-image: url("images/desktop/image-graphic-design.jpg");
+    height: 500px;
+    text-align: center;
+}
+
+.content {
+    padding-top: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+.content .pf {
+    opacity: 0.6;
+    font-size: 15px;
+}
+
+#rightside {
+    width: 50%;
+    background-image: url("images/desktop/image-photography.jpg");
+    height: 500px;
+    text-align: center;
+}
+
+#minmainbody {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#first, #second, #third {
+    text-align: center;
+    width: 30%;
+}
+
+#fourthdisplay {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+#minorheading {
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+#minorheading p {
+    margin: auto;
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.7;
+    color: grey;
+    text-transform: uppercase;
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.faces {
+    border-radius: 50%;
+    width: 35px;
+}
+
+.tes {
+    opacity: 0.6;
+    color: hsl(210, 4%, 67%);
+    font-weight: 600;
+    width: 400px;
+    margin-bottom: 60px;
+}
+
+.name {
+    font-weight: 900;
+    
+}
+
+.ti {
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+#fifthsection {
+    display: flex;
+}
+
+#fifthsection img {
+    width: 25%;
+    height: 100%;
+}
+
+#footer {
+    text-align: center;
+    background-color: hsl(168, 34%, 41%);
+    opacity: 0.7;
+    border: 2px solid black;
+}
+
+#footer img {
+    background-color: inherit;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+#btnav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 15px;
+    opacity: 1;
+    margin-right: 20px;
+}
+
+#btnav a:hover {
+    color: white;
+}
+
+#socials {
+    margin-bottom: 30px;
+}
+
+#socials a {
+    margin-right: 5px;
+}
+
+#socials a:hover {
+    background-color: white;
+}
